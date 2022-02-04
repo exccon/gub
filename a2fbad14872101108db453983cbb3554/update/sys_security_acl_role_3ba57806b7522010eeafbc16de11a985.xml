@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-14 08:44:49</sys_created_on>
+        <sys_id>3ba57806b7522010eeafbc16de11a985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>incident.reopened_time.nobody</sys_name>
+        <sys_package display_value="Incident" source="com.snc.incident">3f70eb47d4040110d15219b32ee16c04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="testttt">a2fbad14872101108db453983cbb3554</sys_scope>
+        <sys_security_acl display_value="incident.reopened_time">93a57806b7522010eeafbc16de11a980</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3ba57806b7522010eeafbc16de11a985</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:16:49</sys_updated_on>
+        <sys_user_role display_value="nobody" name="nobody">b05940500a0a0aa70090a4893f6ff35d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aa67960000002</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_3ba57806b7522010eeafbc16de11a985</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>testttt</previous_claim_name>
+        <previous_claim_scope>a2fbad14872101108db453983cbb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:16:49</sys_created_on>
+        <sys_id>c0b2f15c872101108db453983cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:16:49</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aa67960000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_3ba57806b7522010eeafbc16de11a985</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.incident</previous_claim_name>
+        <previous_claim_scope>com.snc.incident</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:16:49</sys_created_on>
+        <sys_id>84b2f15c872101108db453983cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:16:49</sys_updated_on>
+    </sys_claim>
+</record_update>

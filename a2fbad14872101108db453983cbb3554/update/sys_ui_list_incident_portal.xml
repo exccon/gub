@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="incident" version="2" view="portal">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="2dfd9343d4000110d15219b32ee16ce8">98802f47d4040110d15219b32ee16c5f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-11-30 19:45:43</sys_created_on>
+            <sys_id>10802f47d4040110d15219b32ee16c60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-11-30 19:45:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="2dfd9343d4000110d15219b32ee16ce8">98802f47d4040110d15219b32ee16c5f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-11-30 19:45:43</sys_created_on>
+            <sys_id>90802f47d4040110d15219b32ee16c60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-11-30 19:45:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="2dfd9343d4000110d15219b32ee16ce8">98802f47d4040110d15219b32ee16c5f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-11-30 19:45:43</sys_created_on>
+            <sys_id>14802f47d4040110d15219b32ee16c60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2021-11-30 19:45:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>incident</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-11-30 19:45:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>98802f47d4040110d15219b32ee16c5f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_package display_value="Incident" source="com.snc.incident">3f70eb47d4040110d15219b32ee16c04</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="testttt">a2fbad14872101108db453983cbb3554</sys_scope>
+            <sys_update_name>sys_ui_list_incident_portal</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 12:16:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Portal" name="portal">2dfd9343d4000110d15219b32ee16ce8</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aa86cc0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_list_incident_portal</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>testttt</previous_claim_name>
+        <previous_claim_scope>a2fbad14872101108db453983cbb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:16:57</sys_created_on>
+        <sys_id>06b2755c872101108db453983cbb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:16:57</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aa86cb0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_list_incident_portal</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.incident</previous_claim_name>
+        <previous_claim_scope>com.snc.incident</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:16:57</sys_created_on>
+        <sys_id>c6b2755c872101108db453983cbb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:16:57</sys_updated_on>
+    </sys_claim>
+</record_update>

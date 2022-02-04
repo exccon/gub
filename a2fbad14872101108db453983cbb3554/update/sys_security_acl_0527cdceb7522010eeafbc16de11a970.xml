@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for knowledge in incident, if the ACL script returns true.</description>
+        <name>incident.knowledge</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = true;
+if ((current.incident_state == IncidentState.CLOSED || current.incident_state == IncidentState.CANCELED) && !gs.hasRole('nobody')) {
+	answer = false;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-14 10:01:39</sys_created_on>
+        <sys_id>0527cdceb7522010eeafbc16de11a970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident.knowledge</sys_name>
+        <sys_package display_value="Incident Management Best Practice - Kingston" source="com.snc.best_practice.incident.kingston">99d2afc3d4840110d15219b32ee16cec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="testttt">a2fbad14872101108db453983cbb3554</sys_scope>
+        <sys_update_name>sys_security_acl_0527cdceb7522010eeafbc16de11a970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:17:17</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aad6070000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0527cdceb7522010eeafbc16de11a970</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>testttt</previous_claim_name>
+        <previous_claim_scope>a2fbad14872101108db453983cbb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:17:17</sys_created_on>
+        <sys_id>c7c27d5c872101108db453983cbb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:17:17</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aa96840000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_0527cdceb7522010eeafbc16de11a970</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.best_practice.incident.k</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.incident.k</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:17:17</sys_created_on>
+        <sys_id>8bc27d5c872101108db453983cbb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:17:17</sys_updated_on>
+    </sys_claim>
+</record_update>

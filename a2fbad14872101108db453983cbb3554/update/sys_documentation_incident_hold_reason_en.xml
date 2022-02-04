@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hold_reason" label="On hold reason" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hold_reason</element>
+            <help/>
+            <hint/>
+            <label>On hold reason</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>On hold reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2021-11-30 19:53:28</sys_created_on>
+            <sys_id>7942ab4fd4440110d15219b32ee16cc7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>On hold reason</sys_name>
+            <sys_package display_value="Incident Management - Core" source="com.snc.incident_management">3942ab4fd4440110d15219b32ee16c73</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="testttt">a2fbad14872101108db453983cbb3554</sys_scope>
+            <sys_update_name>sys_documentation_incident_hold_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-04 12:17:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aac43b0000002</claim_timestamp>
+        <metadata_update_name>sys_documentation_incident_hold_reason_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>testttt</previous_claim_name>
+        <previous_claim_scope>a2fbad14872101108db453983cbb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:17:12</sys_created_on>
+        <sys_id>fdc2f95c872101108db453983cbb35dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:17:12</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="testttt">a2fbad14872101108db453983cbb3554</claim_owner_scope>
+        <claim_timestamp>17ec4aac43b0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_incident_hold_reason_en</metadata_update_name>
+        <previous_claim_app_version/>
+        <previous_claim_name>com.snc.incident_management</previous_claim_name>
+        <previous_claim_scope>com.snc.incident_management</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 12:17:12</sys_created_on>
+        <sys_id>b1c2f95c872101108db453983cbb35de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 12:17:12</sys_updated_on>
+    </sys_claim>
+</record_update>
